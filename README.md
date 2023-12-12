@@ -19,32 +19,35 @@ In this project, the user successfully set up a secure network environment by de
 <h2>Project walk-through:</h2>
 
 <p align="center">
-Set up a Virutal Machine (VM) Windows Server:  <br/>
-<img src="https://imgur.com/8ZxjFG2.png" height="80%" width="80%" alt="VirtualBox"/>
+1. Download pfSense ISO:
+visit the pfSense download page: pfSense Download and choose the architecture (64-bit): <br/>
+<img src="https://imgur.com/8ZxjFG2.png" height="80%" width="80%" alt="pfSense"/>
 <br />
 <br />
-Rename pc, assign IP address, and change adpaters:  <br/>
-<img src="https://imgur.com/s2nblqH.png" height="80%" width="80%" alt="VirtualBox"/>
+2. Install VirtualBox and configure virtual machine settings:  <br/>
+<img src="https://imgur.com/s2nblqH.png" height="80%" width="80%" alt="pfSense"/>
 <br />
 <br />
-Configure and confirm Active Directory domain services: <br/>
-<img src="https://imgur.com/nw8AcnS.png" height="80%" width="80%" alt="VirtualBox"/>
+3. Start the VM and install pfSense. i.e., follow on-screen instruction and assign interfaces as needed (e..g, WAN and LAN). <br/>
+<img src="https://imgur.com/nw8AcnS.png" height="80%" width="80%" alt="pfSense"/>
 <br />
 <br />
-Confirm and run the following PowerShell script to create User:  <br/>
-<img src="https://imgur.com/OH60dCN.png" height="80%" width="80%" alt="VirtualBox"/>
+4. Complete pfSense Configuration: <br/>
+<img src="https://imgur.com/OH60dCN.png" height="80%" width="80%" alt="pfSense"/>
 <br />
 <br />
-Wait for process to complete (may take some time). Lists of Users is now on display:  <br/>
-<img src="https://imgur.com/gwGbUf9.png" height="80%" width="80%" alt="VirtualBox"/>
+5. Access pfSense Web Interface: 
+Open a web browser and enter the LAN IP address you set during the setup. Log in using the default credentials (admin/ password).  <br/>
+<img src="https://imgur.com/gwGbUf9.png" height="80%" width="80%" alt="pfSense"/>
 <br />
 <br />
-Set up Virtual Machine (VM) Client1 (Windows 10 ISO):  <br/>
-<img src="https://imgur.com/GpUb5kd.png" height="80%" width="80%" alt="VirtualBox"/>
+6. Configure Firewall Rules, DHCP, etc.:
+Access the pfSense webConfigurator to configure firewall rules, DHCP settings, and any addtional services needed.   <br/>
+<img src="https://imgur.com/GpUb5kd.png" height="80%" width="80%" alt="pfSense"/>
 <br />
 <br />
 Project complete:  <br/>
-<img src="https://imgur.com/izPwC3k.png" height="80%" width="80%" alt="VirtualBox"/>
+<img src="https://imgur.com/izPwC3k.png" height="80%" width="80%" alt="pfSense"/>
 </p>
 
 <!--
