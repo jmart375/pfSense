@@ -33,18 +33,23 @@ visit the pfSense download page: pfSense Download and choose the architecture (6
 <br />
 <br />
 3. Start the VM and install pfSense. i.e., follow on-screen instruction and assign interfaces as needed (e..g, WAN and LAN). <br/>
-<img src="https://imgur.com/nw8AcnS.png" height="80%" width="80%" alt="pfSense"/>
+
+![lab 2 (B)](https://github.com/jmart375/pfSense/assets/91294710/65386760-8707-47ba-b257-12dba8d8b474)
+
+
 <br />
 <br />
 4. Complete pfSense Configuration: <br/>
-<img src="https://imgur.com/OH60dCN.png" height="80%" width="80%" alt="pfSense"/>
+
+![lab 2 (c)](https://github.com/jmart375/pfSense/assets/91294710/16ce5523-793a-4734-9470-f6517b173f30)
+
 <br />
 <br />
 5. Access pfSense Web Interface: 
 Open a web browser and enter the LAN IP address you set during the setup. Log in using the default credentials (admin/ password).  <br/>
-<img src="https://imgur.com/gwGbUf9.png" height="80%" width="80%" alt="pfSense"/>
-<br />
-<br />
+
+<br />![lab 2](https://github.com/jmart375/pfSense/assets/91294710/2326e2d1-c32a-4050-9f5a-0d0fb63b097e)
+
 6. Configure Firewall Rules, DHCP, etc.:
 Access the pfSense webConfigurator to configure firewall rules, DHCP settings, and any addtional services needed.   <br/>
 <img src="https://imgur.com/GpUb5kd.png" height="80%" width="80%" alt="pfSense"/>
